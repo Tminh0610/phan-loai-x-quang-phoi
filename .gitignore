@@ -1,0 +1,24 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.idea/
+.vscode/
+
+# Download the image dataset separately (see data/DAT_DU_LIEU_O_DAY.md)
+data/*
+!data/DAT_DU_LIEU_O_DAY.md
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
